@@ -9,3 +9,29 @@ body {
 /*
 Add some style blocks below this line to style the card.
 */
+section {
+    border: solid 1px lightgray;
+    width: 23vw;
+}
+
+h2 {
+    margin-left: 5%;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 90%;
+}
+
+button {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border: solid 2px lightgray;
+    border-radius: 3px;
+}
+
+img {
+    width: 100%;
+}
+

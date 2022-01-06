@@ -10,15 +10,66 @@ body {
 Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
+section {
+    border: solid 1px lightgray;
+    width: 23vw;
+}
+
+h2 {
+    margin-left: 5%;
+    font-family: 'Licorice', cursive;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 90%;
+}
+
+button {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border: solid 2px lightgray;
+    border-radius: 3px;
+}
+
+img {
+    width: 100%;
+}
+
+iframe { 
+    width: 100%;
+    height: 48.5%;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+}
 
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
+    main {
+        flex-flow: wrap;
+    }
 
+    section {
+        width: 43vw;
+        margin: 1vw;
+    }
 }
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
+    main {
+        flex-flow: wrap;
+    }
 
+    section {
+        width: 95vw;
+        margin: 1vw;
+    }
     
 }
